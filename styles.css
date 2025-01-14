@@ -1,0 +1,22 @@
+#text {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.highlight {
+    position: absolute;
+    background-color: yellow;
+    z-index: -1;
+    pointer-events: none;
+    transition: all 0.1s ease;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
