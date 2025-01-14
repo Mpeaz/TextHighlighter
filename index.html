@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary Text Highlighting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="color">Highlight Color:</label>
+        <input type="color" id="color" name="color" value="#ffff00">
+        
+        <label for="size">Highlight Size (px):</label>
+        <input type="number" id="size" name="size" value="20" min="10" max="50">
+    </div>
+    <p id="text">This is some sample text that will be highlighted temporarily as you move the cursor over it. Adjust the highlighter size and color using the controls above.</p>
+    <script src="script.js"></script>
+</body>
+</html>
